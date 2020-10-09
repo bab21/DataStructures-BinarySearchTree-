@@ -7,7 +7,7 @@ import org.junit.Test;
 public class BinarySearchTreeTest {
 
 	@Test
-	public void given13NumbersWhenAddedToBinaryTreeShouldReturnSizeThree() {
+	public void given13NumbersWhenAddedToBinaryTreeShouldReturnSize13() {
 		BinarySearchTree binarySearchTree=new BinarySearchTree<>();
 		binarySearchTree.add(56);
 		binarySearchTree.add(30);
